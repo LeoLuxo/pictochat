@@ -232,7 +232,7 @@ def chat_room(room_name, room_color):
 				msg_buffer.extend(lines)
 				msg_buffer.append("")
 				if scroll > 0:
-					scroll = max(0, min(len(msg_buffer) - HEIGHT+10, scroll + SCROLL_SPEED * (len(lines) + 1)))
+					scroll = max(0, min(len(msg_buffer) - HEIGHT+10, scroll + len(lines) + 1))
 				buf_dirty = True
 				
 			elif d[0] == b"\x10":
@@ -241,7 +241,7 @@ def chat_room(room_name, room_color):
 				msg_buffer.append("")
 				msg_buffer.append("")
 				if scroll > 0:
-					scroll = max(0, min(len(msg_buffer) - HEIGHT+10, scroll + SCROLL_SPEED * 4))
+					scroll = max(0, min(len(msg_buffer) - HEIGHT+10, scroll + 4))
 				room_size += 1
 				buf_dirty = True
 				
@@ -251,7 +251,7 @@ def chat_room(room_name, room_color):
 				msg_buffer.append("")
 				msg_buffer.append("")
 				if scroll > 0:
-					scroll = max(0, min(len(msg_buffer) - HEIGHT+10, scroll + SCROLL_SPEED * 4))
+					scroll = max(0, min(len(msg_buffer) - HEIGHT+10, scroll + 4))
 				room_size -= 1
 				buf_dirty = True
 		
