@@ -15,6 +15,7 @@ Requirements: **Python 3.7 or higher**\
 No additional modules/libraries needed!
 
 ## Special controls
+
 - When entering your name, you can press *tab* to cycle colors.
 - In the menu, press *enter* to join a room.
 - While chatting, you can underline parts of your message using \_\_*double underscores*\_\_, and scroll up and down using the arrow keys.
