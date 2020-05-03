@@ -1,4 +1,4 @@
-![Python Versions](https://img.shields.io/static/v1?label=python&message=3.7%20|%203.8&color=orange)
+![Python Versions](https://img.shields.io/static/v1?label=python&message=3.6%20|%203.7%20|%203.8&color=orange)
 
 # Pictochat
 
@@ -11,7 +11,7 @@ Download/clone the project and run it inside CMD or your favorite ANSI-compatibl
 ```console
 $ python3 pictochat.py
 ```
-Requirements: **Python 3.7 or higher**\
+Requirements: **Python 3.6 or higher**\
 No additional modules/libraries needed!
 
 ## Special controls
