@@ -11,8 +11,8 @@ Download/clone the project and run it inside CMD or your favorite ANSI-compatibl
 ```console
 $ python3 pictochat.py
 ```
-Requirements: **Python 3.6 or higher**\
-No additional modules/libraries needed!
+Python version: **Python 3.6 or higher**\
+No additional packages/requirements needed!
 
 ## Special controls
 
