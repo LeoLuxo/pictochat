@@ -7,7 +7,7 @@ You can create chat-rooms and join as different users/computers, and chat with e
 
 ## Run it
 
-Download/clone the project and run it inside CMD or your favorite ANSI-compatible shell. (only tested on Windows)
+Download/clone the project and run it inside CMD or your favorite ANSI-compatible terminal. (only tested on Windows)
 ```console
 $ python3 pictochat.py
 ```
