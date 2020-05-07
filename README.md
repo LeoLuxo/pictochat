@@ -9,7 +9,7 @@ You can create chat-rooms and join as different users/computers, and chat with e
 
 Download/clone the project and run it inside CMD or your favorite ANSI-compatible terminal. (only tested on Windows)
 ```console
-$ python3 pictochat.py
+$ python pictochat.py
 ```
 Python version: **Python 3.6 or higher**\
 No additional packages/requirements needed!
